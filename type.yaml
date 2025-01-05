@@ -11,7 +11,7 @@
   "paths": {
     "/pets": {
       "get": {
-        "description": "This is Description javascript:alert(document.domain)//",
+        "description": "This is Description </p><img/src/onerror='javascript:alert(document.domain)//'><p>ok",
         "operationId": "findPets",
         "produces": [
           "application/json",
