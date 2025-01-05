@@ -2,16 +2,16 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "Swagger Petstore <img src=x onerror='javascript:alert(1)'> <script>alert(2)</script>",
+    "title": "Swagger Petstore | <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='javascript:alert(window.origin)'>">",
     "contact":{ 
-    "name": "API Support<img src=x onerror='javascript:alert(1)'>",
+    "name": "API Support",
     "url": "javascript:alert(document.domain)//"
     }
   },
   "paths": {
     "/pets": {
       "get": {
-        "description": "This is <h1>Description</h1>",
+        "description": "This is Description<script>alert()</script>",
         "operationId": "findPets",
         "produces": [
           "application/json",
@@ -23,7 +23,7 @@
           {
             "name": "tags",
             "in": "query",
-            "description": "<script>alert()</script>",
+            "description": "Hello<script>alert()</script>",
             "required": false,
             "type": "array",
             "items": {
