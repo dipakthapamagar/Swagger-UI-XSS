@@ -11,7 +11,7 @@
   "paths": {
     "/pets": {
       "get": {
-        "description": "<script>alert()</script>",
+        "description": "This is <h1>Description</h1>",
         "operationId": "findPets",
         "produces": [
           "application/json",
