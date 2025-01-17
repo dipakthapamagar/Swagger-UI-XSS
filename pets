@@ -1,2 +1,4 @@
-<script>alert(1)</script>
-<img/src/onerror="javascript:alert(1)">
+{
+"hello":<h1>ok</h1>
+"test":<h1 onmouseover='alert(1)'>ok</h1>
+}
