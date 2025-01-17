@@ -5,7 +5,7 @@
     "title": "Swagger Petstore",
     "contact":{ 
     "name": "API Support",
-    "url": "javascript:setTimeout(function(){var msg = document.createElement('div'); msg.innerText = 'Hello after 2 seconds!'; msg.style.padding = '10px'; msg.style.backgroundColor = '#f9f9f9'; msg.style.border = '1px solid #ccc'; msg.style.marginTop = '20px'; document.body.appendChild(msg);}, 2000)"
+    "url": "javascript:setTimeout(function(){alert('Hello after 1 seconds!')}, 1000)"
     }
   },
   "paths": {
