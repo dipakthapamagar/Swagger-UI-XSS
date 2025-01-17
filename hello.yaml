@@ -1,0 +1,15 @@
+swagger: '2.0'
+info:
+  title: Example yaml.spec
+  description: "</textarea><img src='#' onerror='alert(window.origin)'>"
+  url: "javascript:alert(10)"
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
