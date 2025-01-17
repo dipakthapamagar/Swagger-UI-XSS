@@ -5,7 +5,7 @@
     "title": "Swagger Petstore",
     "contact":{ 
     "name": "API Support",
-    "url": "</textarea><img src='#' onerror='alert(window.origin)'>"
+    "url": "javascript:void(0);\\"""" onclick='alert(2)';"
     }
   },
   "paths": {
