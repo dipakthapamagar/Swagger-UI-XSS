@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/dipakthapamagar/Swagger-UI-XSS/refs/heads/main/test7.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/dipakthapamagar/Swagger-UI-XSS/refs/heads/main/test7.yaml",
+            "name": "Foo"
+        }
+    ]
+}
